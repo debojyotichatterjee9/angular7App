@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'changedAppTitle';
+
 }
 /* in the decorator section we can use template instead to templateUrl to write the html here itself,
 if we need to write multiline HTML the we can use the tilt symbol and wrap the whole thing in it
