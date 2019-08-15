@@ -8,6 +8,7 @@ import { Recipe } from '../recipe.model'
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [ // the only thing that will grt stored in this recipes propety is an array which holds Recipe object
+    new Recipe('Test Recipe', 'Test Decription', 'https://cdn-prod.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg'),
     new Recipe('Test Recipe', 'Test Decription', 'https://cdn-prod.medicalnewstoday.com/content/images/articles/324/324956/close-up-of-a-plate-of-food.jpg')
   ]; 
   constructor() { }
