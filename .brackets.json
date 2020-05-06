@@ -4,6 +4,7 @@
         "bower_components",
         ".git",
         "dist",
-        "vendor"
+        "vendor",
+        "e2e"
     ]
 }
